@@ -1,0 +1,11 @@
+.counter-body{
+	border: 1px solid black;
+	width: 20%;
+	border-radius: 10px;
+	text-align: center;
+	margin: 20px;
+}
+.counter-buttons{
+	display: flex;
+	justify-content: space-evenly;
+}
