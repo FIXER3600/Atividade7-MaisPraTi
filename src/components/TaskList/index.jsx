@@ -37,7 +37,7 @@ function TaskList() {
 	});
       
 	return (
-	  <div style={{ maxWidth: "400px", margin: "0 auto", textAlign: "center" }} className="tasklist-body">
+	  <div style={{ maxWidth: "400px", textAlign: "center" }} className="tasklist-body">
 	    <h1>Lista de Tarefas</h1>
 	    <div>
 	      <input

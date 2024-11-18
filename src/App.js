@@ -1,6 +1,7 @@
 import ChangeBackgroundColor from "./components/ChangeBackgroundColor";
 import Counter from "./components/Counter";
 import TaskList from "./components/TaskList";
+import Timer from "./components/Timer";
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Counter/>
       <ChangeBackgroundColor/>
       <TaskList/>
+      <Timer/>
     </div>
   );
 }
