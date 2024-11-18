@@ -1,5 +1,6 @@
 import ChangeBackgroundColor from "./components/ChangeBackgroundColor";
 import Counter from "./components/Counter";
+import TaskList from "./components/TaskList";
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Counter/>
       <ChangeBackgroundColor/>
+      <TaskList/>
     </div>
   );
 }

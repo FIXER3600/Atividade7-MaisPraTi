@@ -7,7 +7,7 @@ export default function Counter() {
 		setNumber(number+=1)
 	}
 	function decrementNumber() {
-		if (number==0) {
+		if (number===0) {
 			return
 		}else{
 			setNumber(number-=1)
