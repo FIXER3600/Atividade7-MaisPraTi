@@ -5,6 +5,7 @@ import Form from "./components/Form";
 import Request from "./components/Request";
 import TaskList from "./components/TaskList";
 import Timer from "./components/Timer";
+import TimerAlert from "./components/TimerAlert";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Filter/>
       <Form/>
       <Request/>
+      <TimerAlert/>
     </div>
   );
 }
