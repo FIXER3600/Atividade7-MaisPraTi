@@ -57,7 +57,9 @@ function Galery() {
       return undefined;
   }
   return (
+    <> <h1 style={{textAlign:'center'}}>Galeria</h1>
     <div className="galery-body">
+     
       {images.map((image) => (
         <div key={image.id} onClick={() => openModal(image)}>
           <img src={image.url} alt="Gallery item" />
@@ -68,17 +70,20 @@ function Galery() {
         <div onClick={closeModal} className="modal-overlay">	
 	
           <div className="modal-content" onClick={handleContentClick}>
-	  <button onClick={()=>backImage(chooseImage)}><IoIosArrowBack /></button>
+          <div style={{display:'flex'}}>
+	  <button onClick={()=>backImage(chooseImage)} id="back-button"><IoIosArrowBack /></button>
 	  <button id="close-modal-button" onClick={closeModal}>X</button>
             <ModalImage image={chooseImage} />
-	    <button onClick={()=>nextImage(chooseImage)}><GrNext />
-
+	    <button onClick={()=>nextImage(chooseImage)} id="next-button">
+        <GrNext />
 	    </button>
+      </div>
           </div>
 	 
         </div>
       )}
     </div>
+    </>
   );
 }
 
