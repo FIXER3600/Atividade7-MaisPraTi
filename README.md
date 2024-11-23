@@ -1,70 +1,174 @@
-# Getting Started with Create React App
+# Projeto de Atividades com React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este repositório contém uma série de exercícios práticos utilizando React. O objetivo é ensinar conceitos fundamentais de React, como o uso de hooks (`useState`, `useEffect`), manipulação de eventos e componentes funcionais.
 
-## Available Scripts
+## Índice
 
-In the project directory, you can run:
+1. [Contador Simples](#1-contador-simples)
+2. [Alteração de Cor de Fundo](#2-alteração-de-cor-de-fundo)
+3. [Lista de Tarefas](#3-lista-de-tarefas)
+4. [Temporizador com useEffect](#4-temporizador-com-useeffect)
+5. [Filtro de Lista](#5-filtro-de-lista)
+6. [Formulário de Registro Simples](#6-formulário-de-registro-simples)
+7. [Aplicação de Requisição de Dados Simples](#7-aplicação-de-requisição-de-dados-simples)
+8. [Galeria de Imagens com Visualização Detalhada](#8-galeria-de-imagens-com-visualização-detalhada)
+9. [Timer com Intervalo e Alerta](#9-timer-com-intervalo-e-alerta)
+10. [Componentes com Tabs Navegáveis](#10-componentes-com-tabs-navegáveis)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 1. Contador Simples
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Objetivo:
+Criar um contador simples que incrementa e decrementa um valor na tela, com um limite mínimo de zero.
 
-### `npm test`
+### Desafio:
+Adicionar uma condição para não permitir que o valor do contador seja menor que zero.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Funcionalidades:
+- Incrementar valor
+- Decrementar valor
+- Garantir que o valor não seja negativo
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 2. Alteração de Cor de Fundo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Objetivo:
+Criar um botão que, ao ser clicado, muda a cor de fundo da página.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Desafio:
+Gerar cores aleatórias a cada clique.
 
-### `npm run eject`
+### Funcionalidades:
+- Botão que altera a cor de fundo
+- Mudança de cor aleatória
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 3. Lista de Tarefas
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Objetivo:
+Criar uma lista de tarefas onde o usuário pode adicionar, remover e marcar tarefas como concluídas.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Desafio:
+Filtrar as tarefas para exibir apenas as pendentes.
 
-## Learn More
+### Funcionalidades:
+- Adicionar e remover tarefas
+- Marcar tarefas como concluídas
+- Filtrar tarefas pendentes
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 4. Temporizador com useEffect
 
-### Code Splitting
+### Objetivo:
+Criar um temporizador que conta o tempo em segundos.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Desafio:
+Adicionar botões para pausar e reiniciar o temporizador.
 
-### Analyzing the Bundle Size
+### Funcionalidades:
+- Contador de segundos
+- Pausar e reiniciar temporizador
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 5. Filtro de Lista
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Objetivo:
+Criar um filtro para uma lista de nomes, onde o usuário pode digitar um texto e a lista se adapta ao filtro.
 
-### Advanced Configuration
+### Desafio:
+Ignorar maiúsculas e minúsculas ao filtrar.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Funcionalidades:
+- Campo de entrada para filtro
+- Listagem de itens filtrados
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 6. Formulário de Registro Simples
 
-### `npm run build` fails to minify
+### Objetivo:
+Criar um formulário com campos de nome, e-mail e senha.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Desafio:
+Adicionar validações para garantir que todos os campos sejam preenchidos antes de enviar.
+
+### Funcionalidades:
+- Formulário de registro
+- Exibição de mensagem de boas-vindas
+
+---
+
+## 7. Aplicação de Requisição de Dados Simples
+
+### Objetivo:
+Criar uma aplicação que exibe uma lista de posts obtidos de uma API pública (como JSONPlaceholder).
+
+### Desafio:
+Adicionar um botão para recarregar os dados e um indicador de carregamento enquanto a requisição está sendo feita.
+
+### Funcionalidades:
+- Requisição de dados via API
+- Exibição de posts em uma lista
+- Indicador de carregamento
+
+---
+
+## 8. Galeria de Imagens com Visualização Detalhada
+
+### Objetivo:
+Criar uma galeria de imagens onde o usuário pode visualizar a imagem ampliada em um modal.
+
+### Desafio:
+Adicionar um botão de "Fechar" no modal e uma funcionalidade de navegação entre as imagens.
+
+### Funcionalidades:
+- Visualização ampliada de imagens
+- Navegação entre as imagens
+- Fechar modal
+
+---
+
+## 9. Timer com Intervalo e Alerta
+
+### Objetivo:
+Criar um timer com contagem regressiva, onde o usuário define o tempo.
+
+### Desafio:
+Adicionar botões para pausar e reiniciar o timer.
+
+### Funcionalidades:
+- Contagem regressiva
+- Alertas quando o tempo acabar
+- Botões de pausar e reiniciar
+
+---
+
+## 10. Componentes com Tabs Navegáveis
+
+### Objetivo:
+Criar uma interface com abas (tabs), onde cada aba exibe um conteúdo diferente.
+
+### Desafio:
+Adicionar um efeito visual que destaque a aba ativa.
+
+### Funcionalidades:
+- Navegação entre abas
+- Efeito de destaque na aba ativa
+
+---
+
+## Instruções de Instalação e Execução
+
+### Requisitos
+- Node.js (v14 ou superior)
+- NPM ou Yarn
+
+### Instalação
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/FIXER3600/Atividade7-MaisPraTi
